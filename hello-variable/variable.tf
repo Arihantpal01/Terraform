@@ -1,5 +1,8 @@
 variable username{
+    type=string
     default = "World"
 }
 
-variable age{}
+variable age{
+    type=number
+}
