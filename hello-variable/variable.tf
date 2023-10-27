@@ -1,1 +1,5 @@
-variable username{}
+variable username{
+    default = "World"
+}
+
+variable age{}
