@@ -5,4 +5,9 @@ variable username{
 
 variable age{
     type=number
+    default = 20
+}
+
+variable users{
+    type=list(string)
 }
