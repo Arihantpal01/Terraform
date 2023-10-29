@@ -11,3 +11,8 @@ variable age{
 variable users{
     type=list(string)
 }
+
+variable keyvalue {
+    type=map(string)
+  
+}
