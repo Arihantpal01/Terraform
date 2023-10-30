@@ -1,6 +1,3 @@
-provider "github" {
-    token = "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"
-}
 
 resource "github_repository" "terraform-first-repo" {
   name        = "first-repo-from-terraform"
@@ -10,4 +7,8 @@ resource "github_repository" "terraform-first-repo" {
   auto_init = true
 
 
+}
+
+output "terraform-first-repo-url"{
+  value =  "github_repository.terraform_first_repo.html_url"
 }
